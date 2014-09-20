@@ -70,7 +70,7 @@ class RDDAmountEdit(AmountEdit):
         AmountEdit.__init__(self, self._base_unit, is_int, parent)
 
     def _base_unit(self):
-        return 'RDD'
+        return 'PND'
 
     def get_amount(self):
         try:

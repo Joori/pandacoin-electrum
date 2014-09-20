@@ -456,7 +456,7 @@ class ElectrumWindow(QMainWindow):
         return self.decimal_point
 
     def base_unit(self):
-        return 'RDD'
+        return 'PND'
 
     def update_status(self):
         if not self.wallet:
